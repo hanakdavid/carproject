@@ -1,0 +1,404 @@
+body{
+    background-image: url('kepek/erik-mclean-ZRns2R5azu0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .link{
+        margin: 0px 0px;
+        color: black;
+        text-decoration: none;
+    }
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+nav li{
+    color: azure;
+    font-size: 30px;
+    font-family: 'Marope';
+    float: left;
+    margin-left: -20px;
+    text-align: center;
+    border-radius: 200px;
+}
+nav a{
+    color: azure;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black !important;
+    border-radius: 10px;
+    background-color: #3de29d;
+    box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+}
+nav li:hover{
+    background-color: #3de29d;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+    background-size: 600% 600%;
+    animation: gradient 6s ease infinite;
+    transform: scale(1.00) translateY(-2px);  /* 5px */
+}
+.menu {
+    background-color: #282828;
+    box-shadow: 5px 5px 5px #111111 ;
+    padding: 10px;
+    width: 220px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.content{
+    margin: 50px auto;
+    border: 2px dotted greenyellow;
+    border-radius: 30px;
+    box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+    background-color: aliceblue;
+    color: azure;
+}
+.lezaro{
+    clear: both;
+}
+.drop{
+    margin: -0px -30px;
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    
+}
+.box{
+    display: none;
+    position: absolute;
+    width: 190px;
+    background-color: #282828;
+    box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+    border-radius: 20px;
+    transform: translate(-35%, -1%);
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    
+}
+.box:hover{
+    box-shadow: 0 0 40px #3de29d, 0 0 20px #3de29d;
+}
+.boxszoveg{
+    font-family: 'Marope';
+    margin: 3px 20px;
+ color: azure;
+}
+.drop:hover .box{
+    display: block;
+}
+.itt{
+    font-family: 'Marope';
+    color: black;
+    background-color: #3de29d;
+    border-radius: 10px !important;
+    box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+    transform: scale(1.00) translateY(-2px); /* 5px */
+}
+
+.card {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+    border-radius: 15px;
+    margin-top: 0px;
+    box-shadow: 0 0 20px #3de29d, 0 0 10px #3de29d;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    perspective: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250%, -50%);
+    padding: 20px;
+    color: azure;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .card:hover{
+    box-shadow: 0 0 40px #3de29d, 0 0 20px #3de29d;
+}
+  .card img{
+    width: 150px;
+    height: 150px;
+  }
+  .left{
+    font-weight: bold;
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    color: #282828;
+    background-color: white;
+    font-size: 20px;
+    width: 145px;
+  }
+  .felsorol{
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 0px;
+    padding: 2px;
+    color: #282828;
+    background-color: white;
+    
+  }
+  .fel{
+    margin-top: 0px;
+   }
+
+   .card1 {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+    border-radius: 15px;
+    margin-top: 0px;
+    box-shadow: 0 0 20px #3de29d, 0 0 10px #3de29d;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    perspective: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-370%, -50%);
+    padding: 20px;
+    color: azure;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    float: left;
+  }
+
+  .card1:hover{
+    box-shadow: 0 0 40px #3de29d, 0 0 20px #3de29d;
+}
+  .card1 img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .card2 {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+    border-radius: 15px;
+    margin-top: 0px;
+    box-shadow: 0 0 20px #3de29d, 0 0 10px #3de29d;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    perspective: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(270%, -50%);
+    padding: 20px;
+    color: azure;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    float: left;
+  }
+
+  .card2:hover{
+    box-shadow: 0 0 40px #3de29d, 0 0 20px #3de29d;
+}
+  .card2 img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .card3 {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+    border-radius: 15px;
+    margin-top: 0px;
+    box-shadow: 0 0 20px #3de29d, 0 0 10px #3de29d;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    perspective: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, -50%);
+    padding: 20px;
+    color: azure;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    float: left;
+  }
+
+  .card3:hover{
+    box-shadow: 0 0 40px #3de29d, 0 0 20px #3de29d;
+}
+  .card3 img{
+    width: 150px;
+    height: 150px;
+  }
+
+
+#container {
+    margin: 150px auto;
+
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+  }
+  
+  .block {
+    width:              150px;
+    height:             150px;
+    background-color:   #cccccc;
+    margin:             10px;       
+    
+  }
+
+  /* Small devices (landscape phones, 200px and up) */
+@media (min-width: 200px) and (max-widht: 570px){
+body{
+    width: 90%;
+    background-image: url('kepek/erik-mclean-ZRns2R5azu0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+    .menu {
+        background-color: #282828;
+        box-shadow: 5px 5px 5px #111111 ;
+        padding: 10px;
+        width: 160px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+    nav li{
+        font-size: 25px;
+        margin-left: -30px;
+    }
+    .link{
+        margin: 0px -0px;
+        color: black;
+        text-decoration: none;
+    }
+    nav a{
+        margin-left: 2px;
+    }
+    .drop{
+        display: none;
+    }
+    .card1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%, 0%);
+    }
+} 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .menu {
+        background-color: #282828;
+        box-shadow: 5px 5px 5px #111111 ;
+        padding: 10px;
+        font-size: 25px;
+        width: 220px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .menu {
+        background-color: #282828;
+        box-shadow: 5px 5px 5px #111111 ;
+        padding: 10px;
+        font-size: 25px;
+        width: 220px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .menu {
+        background-color: #282828;
+        box-shadow: 5px 5px 5px #111111 ;
+        padding: 10px;
+        font-size: 25px;
+        width: 220px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .menu {
+        background-color: #282828;
+        box-shadow: 5px 5px 5px #111111 ;
+        padding: 10px;
+        font-size: 25px;
+        width: 220px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+}
