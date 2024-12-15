@@ -435,7 +435,6 @@ nav li:hover{
 @media (min-width: 300px) and (max-width: 575px){
 body{
     height: 4400px;
-    background-image: url('kepek/erik-mclean-ZRns2R5azu0-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -553,6 +552,10 @@ body{
 
   body{
     height: 4400px;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     max-width: 100%;
     overflow-x: hidden;
   }
