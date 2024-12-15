@@ -7502,10 +7502,10 @@ textarea.form-control-lg {
   transform: translateY(-50%) !important;
 }
 
-.border {
+/* .border {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
-
+*/
 .border-0 {
   border: 0 !important;
 }
@@ -7663,6 +7663,7 @@ textarea.form-control-lg {
 .border-opacity-100 {
   --bs-border-opacity: 1;
 }
+
 
 .w-25 {
   width: 25% !important;
