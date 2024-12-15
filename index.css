@@ -450,7 +450,8 @@ body{
   cursor: pointer;
 }
 .cime{
-  width: 150px;
+  width: 125px;
+  font-size: 25px;
   border-radius: 15px;
   display: block;
   cursor: pointer;
